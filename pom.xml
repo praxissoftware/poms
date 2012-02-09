@@ -52,4 +52,11 @@ under the License.
       <email>jasoncrose@gmail.com</email>
     </developer>
   </developers>
+  
+  <modules>
+    <module>com.github.praxissoftware.poms.commons</module>
+    <module>com.github.praxissoftware.poms.osgi</module>
+    <module>com.github.praxissoftware.poms.rest</module>
+    <module>com.github.praxissoftware.poms.testing</module>
+  </modules>
 </project>
