@@ -82,6 +82,11 @@ under the License.
         <artifactId>jersey-servlet</artifactId>
         <version>${jersey.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.sun.jersey</groupId>
+        <artifactId>jersey-client</artifactId>
+        <version>${jersey.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>
