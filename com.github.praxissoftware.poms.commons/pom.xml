@@ -56,6 +56,11 @@ limitations under the License.
         <version>1.6</version>
       </dependency>
       <dependency>
+        <groupId>commons-pool</groupId>
+        <artifactId>commons-pool</artifactId>
+        <version>1.6</version>
+      </dependency>
+      <dependency>
         <groupId>com.googlecode.guava-osgi</groupId>
         <artifactId>guava-osgi</artifactId>
         <version>11.0.1</version>
