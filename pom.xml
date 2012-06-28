@@ -59,5 +59,6 @@ limitations under the License.
     <module>com.github.praxissoftware.poms.osgi</module>
     <module>com.github.praxissoftware.poms.rest</module>
     <module>com.github.praxissoftware.poms.testing</module>
+    <module>com.github.praxissoftware.poms.logging</module>
   </modules>
 </project>
