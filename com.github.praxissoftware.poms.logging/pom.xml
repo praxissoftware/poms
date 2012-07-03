@@ -23,48 +23,45 @@ limitations under the License.
     <relativePath>..</relativePath>
   </parent>
 
-  <artifactId>com.github.praxissoftware.poms.testing</artifactId>
+  <artifactId>com.github.praxissoftware.poms.logging</artifactId>
   <packaging>pom</packaging>
 
-  <name>Praxis Software - POMs - Testing</name>
+  <name>Praxis Software - POMs - Logging</name>
+
+  <properties>
+    <slf4j.version>1.6.6</slf4j.version>
+  </properties>
 
   <dependencyManagement>
     <dependencies>
+      <!-- Exclude commons logging. -->
       <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>4.10</version>
-        <scope>test</scope>
+        <groupId>commons-logging</groupId>
+        <artifactId>commons-logging</artifactId>
+        <version>1.1.1</version>
+        <scope>provided</scope>
+      </dependency>
+
+      <!-- SLF4j and its bridges. -->
+      <dependency>
+        <groupId>org.slf4j</groupId>
+        <artifactId>slf4j-api</artifactId>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
-        <groupId>xmlunit</groupId>
-        <artifactId>xmlunit</artifactId>
-        <version>1.3</version>
-        <scope>test</scope>
+        <groupId>org.slf4j</groupId>
+        <artifactId>jcl-over-slf4j</artifactId>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.mockito</groupId>
-        <artifactId>mockito-all</artifactId>
-        <version>1.9.0</version>
-        <scope>test</scope>
+        <groupId>org.slf4j</groupId>
+        <artifactId>jul-to-slf4j</artifactId>
+        <version>${slf4j.version}</version>
       </dependency>
       <dependency>
-        <groupId>org.easymock</groupId>
-        <artifactId>easymock</artifactId>
-        <version>3.1</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>ch.qos.logback</groupId>
-        <artifactId>logback-classic</artifactId>
-        <version>1.0.6</version>
-        <scope>test</scope>
-      </dependency>
-      <dependency>
-        <groupId>com.jayway.restassured</groupId>
-        <artifactId>rest-assured</artifactId>
-        <version>1.6.2</version>
-        <scope>test</scope>
+        <groupId>org.slf4j</groupId>
+        <artifactId>log4j-over-slf4j</artifactId>
+        <version>${slf4j.version}</version>
       </dependency>
     </dependencies>
   </dependencyManagement>

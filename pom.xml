@@ -25,7 +25,7 @@ limitations under the License.
 
   <groupId>com.github.praxissoftware.poms</groupId>
   <artifactId>com.github.praxissoftware.poms</artifactId>
-  <version>1.4.0-SNAPSHOT</version>
+  <version>1.5.0-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Praxis Software - POMs</name>
@@ -59,5 +59,6 @@ limitations under the License.
     <module>com.github.praxissoftware.poms.osgi</module>
     <module>com.github.praxissoftware.poms.rest</module>
     <module>com.github.praxissoftware.poms.testing</module>
+    <module>com.github.praxissoftware.poms.logging</module>
   </modules>
 </project>

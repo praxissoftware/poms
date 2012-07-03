@@ -19,7 +19,7 @@ limitations under the License.
   <parent>
     <groupId>com.github.praxissoftware.poms</groupId>
     <artifactId>com.github.praxissoftware.poms</artifactId>
-    <version>1.4.0-SNAPSHOT</version>
+    <version>1.5.0-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
 
@@ -29,8 +29,8 @@ limitations under the License.
   <name>Praxis Software - POMs - REST</name>
 
   <properties>
-    <jackson.version>1.9.7</jackson.version>
-    <jersey.version>1.12</jersey.version>
+    <jackson.version>1.9.8</jackson.version>
+    <jersey.version>1.13</jersey.version>
   </properties>
 
   <dependencyManagement>
