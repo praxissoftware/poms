@@ -29,7 +29,7 @@ limitations under the License.
   <name>Praxis Software - POMs - REST</name>
 
   <properties>
-    <jackson.version>1.9.8</jackson.version>
+    <jackson.version>1.9.9</jackson.version>
     <jersey.version>1.13</jersey.version>
   </properties>
 
