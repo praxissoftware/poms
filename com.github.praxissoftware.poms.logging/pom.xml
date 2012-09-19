@@ -63,6 +63,13 @@ limitations under the License.
         <artifactId>log4j-over-slf4j</artifactId>
         <version>${slf4j.version}</version>
       </dependency>
+      
+      <!-- Include logback as an implementation. -->
+      <dependency>
+        <groupId>ch.qos.logback</groupId>
+        <artifactId>logback-classic</artifactId>
+        <version>1.0.7</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
 </project>
