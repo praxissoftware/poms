@@ -29,7 +29,7 @@ limitations under the License.
   <name>Praxis Software - POMs - Logging</name>
 
   <properties>
-    <slf4j.version>1.6.6</slf4j.version>
+    <slf4j.version>1.7.1</slf4j.version>
   </properties>
 
   <dependencyManagement>
