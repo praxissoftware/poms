@@ -30,7 +30,7 @@ limitations under the License.
 
   <properties>
     <jackson.version>2.1.0</jackson.version>
-    <jersey.version>1.14</jersey.version>
+    <jersey.version>1.15</jersey.version>
   </properties>
 
   <dependencyManagement>
