@@ -53,7 +53,7 @@ limitations under the License.
       <dependency>
         <groupId>org.apache.felix</groupId>
         <artifactId>org.apache.felix.scr</artifactId>
-        <version>1.6.0</version>
+        <version>1.6.2</version>
       </dependency>
 
       <!-- Felix HTTP -->
