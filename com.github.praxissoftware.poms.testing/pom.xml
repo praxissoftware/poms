@@ -19,7 +19,7 @@ limitations under the License.
   <parent>
     <groupId>com.github.praxissoftware.poms</groupId>
     <artifactId>com.github.praxissoftware.poms</artifactId>
-    <version>1.7.0</version>
+    <version>1.8.0</version>
     <relativePath>..</relativePath>
   </parent>
 
@@ -57,7 +57,7 @@ limitations under the License.
       <dependency>
         <groupId>com.jayway.restassured</groupId>
         <artifactId>rest-assured</artifactId>
-        <version>1.7.1</version>
+        <version>1.7.2</version>
         <scope>test</scope>
       </dependency>
       <dependency>
