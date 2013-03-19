@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Copyright 2012 Jason Rose <jasoncrose@gmail.com>
+Copyright 2013 Jason Rose <jasoncrose@gmail.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@ limitations under the License.
 
   <groupId>com.github.praxissoftware.poms</groupId>
   <artifactId>com.github.praxissoftware.poms</artifactId>
-  <version>1.8.1</version>
+  <version>2.0.0</version>
   <packaging>pom</packaging>
 
   <name>Praxis Software - POMs</name>
@@ -56,7 +56,6 @@ limitations under the License.
   
   <modules>
     <module>com.github.praxissoftware.poms.commons</module>
-    <module>com.github.praxissoftware.poms.osgi</module>
     <module>com.github.praxissoftware.poms.rest</module>
     <module>com.github.praxissoftware.poms.testing</module>
     <module>com.github.praxissoftware.poms.logging</module>

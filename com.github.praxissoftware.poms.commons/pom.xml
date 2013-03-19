@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-Copyright 2012 Jason Rose <jasoncrose@gmail.com>
+Copyright 2013 Jason Rose <jasoncrose@gmail.com>
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -19,7 +19,7 @@ limitations under the License.
   <parent>
     <groupId>com.github.praxissoftware.poms</groupId>
     <artifactId>com.github.praxissoftware.poms</artifactId>
-    <version>1.8.1</version>
+    <version>2.0.0</version>
     <relativePath>..</relativePath>
   </parent>
 
@@ -86,7 +86,7 @@ limitations under the License.
       <dependency>
         <groupId>com.google.guava</groupId>
         <artifactId>guava</artifactId>
-        <version>13.0.1</version>
+        <version>14.0.1</version>
       </dependency>
       <dependency>
         <groupId>com.google.inject</groupId>
